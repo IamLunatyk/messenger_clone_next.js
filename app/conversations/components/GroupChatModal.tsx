@@ -12,7 +12,6 @@ import Select from '@/app/components/inputs/Select';
 import Input from "@/app/components/inputs/input";
 import toast from 'react-hot-toast';
 
-const prisma = new PrismaClient(); // Inicjalizacja PrismaClient
 
 interface GroupChatModalProps {
   isOpen?: boolean;
