@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import { FieldValues, SubmitHandler, useForm } from 'react-hook-form';
@@ -7,7 +9,7 @@ import axios from 'axios';
 import Modal from '@/app/components/Modal';
 import Button from '@/app/components/Button';
 import Select from '@/app/components/inputs/Select';
-import Input from '@/app/components/inputs/Input';
+import Input from "@/app/components/inputs/input";
 import toast from 'react-hot-toast';
 
 const prisma = new PrismaClient(); // Inicjalizacja PrismaClient
