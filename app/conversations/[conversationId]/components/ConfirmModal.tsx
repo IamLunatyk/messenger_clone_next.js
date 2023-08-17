@@ -11,7 +11,7 @@ import toast from "react-hot-toast";
 import { FiAlertTriangle } from "react-icons/fi"
 
 interface ConfirmModalProps {
-    isopen?: boolean;
+    isOpen?: boolean;
     onClose: () => void;
 }
 
